@@ -1,0 +1,27 @@
+{
+  "name": "node-flat-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node lib/index.js",
+    "test": "mocha --require @babel/register lib/utils/*.test.js"
+  },
+  "author": "Hosar",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "nodemon": "^1.19.1"
+  }
+}
