@@ -15,7 +15,7 @@ flatArray(arr) // [1,2,3,4,5,6]
 ### Installing
 
 ```
- git clone 
+ git clone https://github.com/Hosar/flatArray.git
 ```
 
 ## Running the tests
